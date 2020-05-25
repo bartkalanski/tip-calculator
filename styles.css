@@ -17,15 +17,21 @@ h3{
     text-align: center;
     margin-top: 10rem;
     display: none;
+    background: white;
+    
+   
+    
 }
 form{
     
     display: grid;
     justify-content: space-around;
     gap: 5px;
+    
+
 }
 label, input, select{
- 
+    padding: 5px;
 }
 input{
    
@@ -34,9 +40,13 @@ select{
     
 }
 button{
-    margin-top: 1rem;
-    padding: 1rem;
-    border: 1px black solid;
-    border-radius: 40%;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    outline: 0;
+    border: 0;
+    color: black;
+    transition: 0.3s;
     
 }
