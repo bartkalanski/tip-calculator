@@ -4,7 +4,7 @@ body,p,a,ul,li{
     text-decoration: none;
 }
 body{
-    background-color: #0F7A34;
+    background-color: darkgrey;
     overflow-x: hidden;
     font-family: sans-serif;
 }
@@ -12,41 +12,56 @@ h1{
     font-size: 3rem;
     text-align: center;
     margin-bottom: 10rem;
+    background: darkgrey;
 }
 h3{
-    text-align: center;
-    margin-top: 10rem;
     display: none;
-    background: white;
-    
-   
-    
-}
+    width: 100%;
+    padding: .5rem;
+    font-size: 18px;
+    border-radius: 5px;
+    }
 form{
-    
-    display: grid;
-    justify-content: space-around;
-    gap: 5px;
-    
-
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 2rem;
+    border-radius: 5px;
 }
 label, input, select{
     padding: 5px;
 }
+label{
+    display: block;
+    padding: 1rem 0 .5rem;
+    text-transform: uppercase;
+    font-size: 14px;
+}
 input{
-   
+   display: block;
+   width: 93%;
+   border: 2px solid black;
+   padding: .5rem;
+   font-size: 18px;
+   border-radius: 5px;
 }
 select{
-    
-}
-button{
-    margin-top: 10px;
     display: block;
-    width: 100%;
-    padding: 20px;
-    outline: 0;
-    border: 0;
-    color: black;
-    transition: 0.3s;
+   width: 97%;
+   border: 2px solid black;
+   padding: .5rem;
+   font-size: 18px;
+   border-radius: 5px;
+}
+#sendBtn{
+   border: 2px solid black;
+   background: whitesmoke;
+   color: black;
+   padding: .5rem;
+   margin: 1rem 0;
+   width: auto;
+   text-transform: uppercase;
+   cursor: pointer;
+ 
     
 }
